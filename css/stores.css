@@ -1,0 +1,123 @@
+body, html{
+    box-sizing: border-box;
+    height: 1080px;
+    max-width: auto;
+    margin: 0;
+    padding: 0;
+    background: rgb(218, 202, 184);
+    font-family: Helvetica, sans-serif;
+}
+
+/* Nav CSS */
+nav {
+    letter-spacing: 2px;
+    /* word-spacing: 24px; */
+    font-size: 18px;
+    z-index: 1;
+    background: #8d6852ad;
+    color: #180f0c;
+}
+
+.navbar a {
+    color: #1a110e;
+    font-size: 20px;
+}
+
+.navbar #form {
+    color: #1a110e;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* Footer CSS */
+
+.footer-container {
+    max-width: 1920px;
+    padding-top: 20px;
+    margin: 10px;
+}
+
+.footer-top{
+    max-width: 1920px;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    /* gap: 10px; */
+    grid-auto-rows: 600px;
+}
+
+    .footer-image1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.863),
+        #462e258f), url("/images/mainImages/footer1.jpg");
+        background-size: 760px 600px;
+        opacity: 0.8;
+        height: auto;
+        width: 50vw;
+        padding: 0;
+    }
+
+        .footer-title {
+            color: #dadada;
+            font-size: 48px;
+            text-align: center;
+            padding-top: 200px;
+        }
+        
+        .social-media {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .social-media li {
+            margin: 22px;
+        }
+
+
+    .footer-image2{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.863),
+        #462e258f), url("/images/mainImages/footer2.jpg");
+        background-size: 760px 600px;
+        opacity: 0.8;
+        height: auto;
+        width: 50vw;
+        padding-left: 100px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: #dadada;
+    }
+
+        .footer-title2 {
+            font-size: 48px;
+        }
+
+        .footer-caption2 {
+            font-size: 24px;
+        }
+      
+        .footer-form {
+            padding-bottom: 5px;
+        }
+
+        .form-holder input {
+            background: #f5cfc2ce;
+            border: 0;
+            color: #000000;
+        }
+
+        .form-holder textarea {
+            background: #ffd5c6ef;
+            border: 0;
+            color: #000000;
+        }
+
+        .form-holder button {
+            background: #240c03;
+            color: white;
+            border: 0;
+            border-radius: 15px;
+        }
+
